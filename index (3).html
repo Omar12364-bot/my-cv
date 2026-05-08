@@ -79,29 +79,7 @@ footer{text-align:center;padding:2rem;border-top:1px solid #ffffff08;font-size:.
 footer span{color:#c9943a}
 .fade-in{opacity:0;transform:translateY(18px);transition:opacity .55s ease,transform .55s ease}
 .fade-in.visible{opacity:1;transform:translateY(0)}
-@media(max-width:768px){
-  nav{padding:.9rem 1.2rem}
-  .nav-links{gap:1rem}
-  .nav-links a{font-size:.72rem}
-  .hero{grid-template-columns:1fr;min-height:auto}
-  .hero-left{padding:2.5rem 1.2rem 1.5rem}
-  .hero-name{font-size:2.8rem}
-  .hero-bio{max-width:100%}
-  .hero-right{height:auto;padding:0 1.2rem 2.5rem;background:#0b0e14;display:flex}
-  .photo-frame{width:100%;max-width:320px;height:380px;margin:0 auto}
-  .stats-row{grid-template-columns:repeat(3,1fr)}
-  .sec{padding:2.5rem 1.2rem}
-  .sec-title{font-size:1.5rem}
-  .contact-grid{grid-template-columns:1fr}
-  .hero-ctas{flex-direction:column}
-  .btn-gold,.btn-ghost{width:100%;text-align:center}
-  .skills-grid{grid-template-columns:repeat(auto-fill,minmax(110px,1fr))}
-}
-@media(max-width:400px){
-  .stats-row{grid-template-columns:1fr}
-  .hero-name{font-size:2.2rem}
-  .photo-frame{height:300px}
-}
+@media(max-width:650px){.hero{grid-template-columns:1fr}.hero-right{display:none}.contact-grid{grid-template-columns:1fr}.stats-row{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -114,7 +92,7 @@ footer span{color:#c9943a}
       <a href="#contact">Contact</a>
     </div>
   </nav>
-
+ 
   <div class="hero" id="about">
     <div class="hero-left">
       <div class="eyebrow">Optical Technology</div>
@@ -134,7 +112,7 @@ footer span{color:#c9943a}
       </div>
     </div>
   </div>
-
+ 
   <div style="padding:0 2.5rem 2rem">
     <div class="stats-row fade-in">
       <div class="stat"><div class="stat-num">3+</div><div class="stat-lbl">Years Experience</div></div>
@@ -142,7 +120,7 @@ footer span{color:#c9943a}
       <div class="stat"><div class="stat-num">2nd</div><div class="stat-lbl">Year — Optics</div></div>
     </div>
   </div>
-
+ 
   <section class="sec fade-in" id="experience">
     <h2 class="sec-title">Experience <span>/ work history</span></h2>
     <div class="timeline">
@@ -168,7 +146,7 @@ footer span{color:#c9943a}
       </div>
     </div>
   </section>
-
+ 
   <section class="sec fade-in" style="padding-top:0">
     <h2 class="sec-title">Education <span>/ academic</span></h2>
     <div class="edu-card">
@@ -177,7 +155,7 @@ footer span{color:#c9943a}
       <div class="edu-school">Higher Institute of Technology for Optics · Sheraton, New Cairo · 2021 – Present</div>
     </div>
   </section>
-
+ 
   <section class="sec fade-in" style="padding-top:0">
     <h2 class="sec-title">Skills <span>/ competencies</span></h2>
     <div class="skills-grid">
@@ -189,7 +167,7 @@ footer span{color:#c9943a}
       <div class="skill-chip">English — Intermediate</div>
     </div>
   </section>
-
+ 
   <section class="sec fade-in" id="contact" style="background:#0f1318;border-top:1px solid #ffffff08">
     <h2 class="sec-title">Contact <span>/ get in touch</span></h2>
     <div class="contact-grid">
@@ -212,7 +190,7 @@ footer span{color:#c9943a}
       </div>
     </div>
   </section>
-
+ 
   <footer>© 2025 <span>Mahmoud Yasser</span> · All Rights Reserved</footer>
 </div>
 <script>
